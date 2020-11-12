@@ -26,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(String.valueOf(number++));
             }
         });
+        buttonsubtract.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textView.setText(String.valueOf(number--));
+            }
+        });
     }
 }
